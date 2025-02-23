@@ -347,7 +347,7 @@ button {
 }
 .icon-link:hover,
 .icon-link:focus {
-  background-color: #31d0aa;
+  background-color: #404bbf;
 }
 /* #endregion team */
 
@@ -457,7 +457,12 @@ button {
 .container-footer-block {
   margin-right: 120px;
 }
-
+.cont-foot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
 .footer-text {
   max-width: 264px;
   font-weight: 400;
