@@ -92,11 +92,10 @@ button {
   align-items: center;
   gap: 40px;
 }
-.item-nav-link current {
-  color: #404bbf;
-}
+
 .item-nav-link.current {
   position: relative;
+  color: #404bbf;
 }
 .item-nav-link.current::after {
   content: '';
@@ -323,7 +322,8 @@ button {
   gap: 24px;
 }
 
-.icon-link {
+.icon-link,
+.icon-link-footer {
   width: 100%;
   height: 100%;
   background-color: #4d5ae5;
@@ -443,7 +443,10 @@ button {
 .footer-title-web {
   color: #f4f4fd;
 }
-
+.icon-link-footer:hover,
+.icon-link-footer:focus {
+  background-color: #31d0aa;
+}
 .container-footer {
   max-width: 1158px;
   padding: 0 15px;
@@ -454,10 +457,7 @@ button {
 .container-footer-block {
   margin-right: 120px;
 }
-.cont {
-  display: flex;
-  gap: 16px;
-}
+
 .footer-text {
   max-width: 264px;
   font-weight: 400;
